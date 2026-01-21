@@ -33,7 +33,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 max-w-md">
-            Oozing with creamy cheese! Juicy, big portions of golden chicken with signature fountain cheese.
+            Oooooozing with creamy cheese! Juicy, big portions of golden chicken with signature fountain cheese.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
