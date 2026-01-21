@@ -32,7 +32,7 @@ const Hero = () => {
             <span className="text-foreground">Balalm</span>
           </h1>
           
-          <p className="text-xl text-muted-foreground mb-8 max-w-md">
+          <p className="text-xl text-foreground mb-8 max-w-md">
             Oooooozing with creamy cheese! Juicy, big portions of golden chicken with signature fountain cheese.
           </p>
 
