@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Delicious Chicken with Cheese"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/65 to-background/60" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/40" />
       </div>
 
@@ -33,7 +33,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 max-w-md">
-            Ooooooozing with cheeeeeeeese! Juicy & big sizes of chicken with our famous fountain cheese.
+            Oozing with creamy cheese! Juicy, big portions of golden chicken with signature fountain cheese.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -44,7 +44,6 @@ const Hero = () => {
               onClick={() => window.open("https://hungerstation.com/sa-en/restaurant/riyadh/riyadh/146982", "_blank")}
             >
               Order Now
-              <span className="ml-2 group-hover:animate-bounce">🍗</span>
             </Button>
             <Button
               variant="outline"
@@ -57,18 +56,18 @@ const Hero = () => {
           </div>
 
           {/* Quick Info */}
-          <div className="flex flex-wrap gap-6 text-sm">
-            <div className="flex items-center gap-2 bg-background/80 backdrop-blur-sm px-4 py-2 rounded-full border border-border/50 hover:border-primary/50 transition-all duration-300">
-              <Clock className="w-4 h-4 text-primary" />
-              <span className="font-medium">Open · Closes 4 AM</span>
+          <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 md:gap-6 text-xs sm:text-sm">
+            <div className="flex items-center gap-2 bg-background/80 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-full border border-border/50 hover:border-primary/50 transition-all duration-300 w-full sm:w-auto justify-center sm:justify-start">
+              <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary flex-shrink-0" />
+              <span className="font-medium text-center sm:text-left">Open · Closes 4 AM</span>
             </div>
-            <div className="flex items-center gap-2 bg-background/80 backdrop-blur-sm px-4 py-2 rounded-full border border-border/50 hover:border-primary/50 transition-all duration-300">
-              <MapPin className="w-4 h-4 text-primary" />
-              <span className="font-medium">Riyadh, Saudi Arabia</span>
+            <div className="flex items-center gap-2 bg-background/80 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-full border border-border/50 hover:border-primary/50 transition-all duration-300 w-full sm:w-auto justify-center sm:justify-start">
+              <MapPin className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary flex-shrink-0" />
+              <span className="font-medium text-center sm:text-left">Riyadh, Saudi Arabia</span>
             </div>
-            <div className="flex items-center gap-2 bg-background/80 backdrop-blur-sm px-4 py-2 rounded-full border border-border/50 hover:border-primary/50 transition-all duration-300">
-              <Phone className="w-4 h-4 text-primary" />
-              <span className="font-medium">+966 11 512 7373</span>
+            <div className="flex items-center gap-2 bg-background/80 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-full border border-border/50 hover:border-primary/50 transition-all duration-300 w-full sm:w-auto justify-center sm:justify-start">
+              <Phone className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary flex-shrink-0" />
+              <span className="font-medium text-center sm:text-left">+966 11 512 7373</span>
             </div>
           </div>
         </div>
